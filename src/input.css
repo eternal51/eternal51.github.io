@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-serif text-lg font-normal tracking-tight text-dark-1 subpixel-antialiased;
+}
+
+.navbar-fixed {
+  @apply fixed bottom-2 left-1/2 -translate-x-1/2 rounded-3xl bg-dark-2 bg-opacity-80 py-4;
+}
+
+.navbar-item {
+  @apply mx-3 flex h-10 w-10 items-center justify-center rounded-full border-2 border-sage-3 text-sage-3 hover:border-sage-3 hover:bg-sage-3 hover:text-white md:mx-4 lg:mx-8;
+}
+
+.countdown-list {
+  @apply mx-2 block h-20 w-20 rounded-full border bg-dark-1 p-2 transition-all ease-linear hover:scale-110 hover:bg-dark-2 hover:ring-2 hover:ring-dark-1 lg:mx-4;
+}
+
+.countdown-unit {
+  @apply block text-base font-normal;
+}
+
+.button {
+  @apply inline-flex items-center gap-1 rounded-full bg-sage-4 bg-gradient-to-r px-4 py-3 font-sans text-xs font-semibold uppercase text-white transition duration-300 ease-in-out hover:scale-110 hover:opacity-80 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-sage-3 md:gap-3 md:px-6 md:text-base lg:px-8;
+}
