@@ -52,8 +52,9 @@ if (urlParams.has("to")) {
 
 // Kategori Tamu VIP
 const kategori = urlParams.get("v");
-if (urlParams.has("v")) {y
-  document.querySelector("#kategori-tamu").innerHTML = "VIP";
+if (urlParams.has("v")) {
+  document.querySelector("#kategori-tamu").innerHTML =
+    "<span class='mx-2 rounded-md bg-gradient-to-r from-pink-500 to-rose-500 px-6 py-3 text-2xl font-bold tracking-widest text-white font-serif-2'>VIP</span>";
 } else {
   document.querySelector("#kategori-tamu").innerHTML = "";
 }
