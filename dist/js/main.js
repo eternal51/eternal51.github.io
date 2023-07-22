@@ -50,6 +50,14 @@ if (urlParams.has("to")) {
   document.querySelector("#nama-tamu").innerHTML = "Tamu Undangan";
 }
 
+// Kategori Tamu VIP
+const kategori = urlParams.get("v");
+if (urlParams.has("v")) {
+  document.querySelector("#kategori-tamu").innerHTML = "VIP";
+} else {
+  document.querySelector("#kategori-tamu").innerHTML = "Biasa";
+}
+
 // Mencegah Scroll di #amplop
 document
   .querySelector("#amplop")
