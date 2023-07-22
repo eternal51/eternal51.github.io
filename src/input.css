@@ -15,11 +15,11 @@ body {
 }
 
 .countdown-list {
-  @apply mx-2 block h-20 w-20 rounded-full border bg-dark-1 p-2 transition-all ease-linear hover:scale-110 hover:bg-dark-2 hover:ring-2 hover:ring-dark-1 lg:mx-4;
+  @apply mx-2 block h-16 w-16 rounded-full border bg-dark-1 p-2 transition-all ease-linear hover:bg-dark-2 hover:ring-2 hover:ring-dark-1 md:h-20 md:w-20 lg:mx-4;
 }
 
 .countdown-unit {
-  @apply block text-base font-normal;
+  @apply hidden text-sm font-normal md:block;
 }
 
 .button {

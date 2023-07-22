@@ -52,10 +52,10 @@ if (urlParams.has("to")) {
 
 // Kategori Tamu VIP
 const kategori = urlParams.get("v");
-if (urlParams.has("v")) {
+if (urlParams.has("v")) {y
   document.querySelector("#kategori-tamu").innerHTML = "VIP";
 } else {
-  document.querySelector("#kategori-tamu").innerHTML = "Biasa";
+  document.querySelector("#kategori-tamu").innerHTML = "";
 }
 
 // Mencegah Scroll di #amplop
