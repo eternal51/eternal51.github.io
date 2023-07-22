@@ -827,11 +827,6 @@ video {
   border-color: rgb(104 104 89 / var(--tw-border-opacity));
 }
 
-.border-zinc-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(212 212 216 / var(--tw-border-opacity));
-}
-
 .border-b-sage-5 {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(104 104 89 / var(--tw-border-opacity));
