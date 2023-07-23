@@ -54,7 +54,7 @@ if (urlParams.has("to")) {
 const kategori = urlParams.get("v");
 if (urlParams.has("v")) {
   document.querySelector("#kategori-tamu").innerHTML =
-    "<span class='mx-2 rounded-md bg-merah-2 px-6 py-3 text-2xl font-bold tracking-widest text-white font-serif-2'>VIP</span>";
+    "<span class='mx-2 rounded-md bg-merah-2 px-6 py-3 text-2xl font-bold tracking-widest text-white font-serif-3'>VIP</span>";
 } else {
   document.querySelector("#kategori-tamu").innerHTML = "";
 }

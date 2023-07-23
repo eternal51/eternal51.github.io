@@ -25,7 +25,7 @@ module.exports = {
         "serif-2": ["Playfair Display SC", "serif"],
         display: ["Lobster Two", "cursive"],
         cursive: ["Great Vibes", "cursive"],
-        pinyon: ["Pinyon Script", "cursive"],
+        "serif-3": ["Lora", "serif"],
       },
       screens: {
         "2xl": "1320px",
