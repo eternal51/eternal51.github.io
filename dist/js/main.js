@@ -46,13 +46,19 @@ const tujuan = urlParams.get("to");
 
 if (urlParams.has("to")) {
   document.querySelector("#nama-tamu").innerHTML = tujuan;
+  console.log(tujuan)
 } else {
   document.querySelector("#nama-tamu").innerHTML = "Tamu Undangan";
 }
 
 // Kategori Tamu VIP
-const kategori = urlParams.get("v");
-if (urlParams.has("v")) {
+// const kategori = urlParams.get("v");
+const tamuVip = [ 
+  "Alif Fahmi", 
+  "Era Lestari"
+];
+if (tamuVip.includes(tujuan)) {
+// if (urlParams.has("v")) {
   document.querySelector("#kategori-tamu").innerHTML =
     "<span class='text-xl font-semibold py-1 px-4 mx-2 rounded-md text-white bg-sage-5 font-serif-3 items-center'>VIP</span>";
 } else {
