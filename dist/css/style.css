@@ -800,7 +800,7 @@ video {
 }
 
 .animate-al {
-  animation: al 6s ease-in-out infinite;
+  animation: al 8s ease-in-out infinite;
 }
 
 @keyframes bounce {
@@ -834,7 +834,7 @@ video {
 }
 
 .animate-dan {
-  animation: dan 6s ease-in-out infinite;
+  animation: dan 8s ease-in-out infinite;
 }
 
 @keyframes e {
@@ -848,7 +848,7 @@ video {
 }
 
 .animate-e {
-  animation: e 6s ease-in-out infinite;
+  animation: e 8s ease-in-out infinite;
 }
 
 @keyframes if {
@@ -866,7 +866,7 @@ video {
 }
 
 .animate-if {
-  animation: if 6s ease-in-out infinite;
+  animation: if 8s ease-in-out infinite;
 }
 
 @keyframes ra {
@@ -884,7 +884,7 @@ video {
 }
 
 .animate-ra {
-  animation: ra 6s ease-in-out infinite;
+  animation: ra 8s ease-in-out infinite;
 }
 
 @keyframes tern {
@@ -902,7 +902,7 @@ video {
 }
 
 .animate-tern {
-  animation: tern 6s ease-in-out infinite;
+  animation: tern 8s ease-in-out infinite;
 }
 
 .flex-wrap {
@@ -986,6 +986,11 @@ video {
   background-color: rgb(82 82 91 / var(--tw-bg-opacity));
 }
 
+.bg-merah-2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(184 48 26 / var(--tw-bg-opacity));
+}
+
 .bg-sage-1 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 242 237 / var(--tw-bg-opacity));
@@ -1016,18 +1021,8 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-rose-400 {
-  --tw-gradient-from: #fb7185 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(251 113 133 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .to-orange-500 {
   --tw-gradient-to: #f97316 var(--tw-gradient-to-position);
-}
-
-.to-red-500 {
-  --tw-gradient-to: #ef4444 var(--tw-gradient-to-position);
 }
 
 .p-4 {
@@ -1586,7 +1581,7 @@ body {
   }
 
   .md\:animate-almd {
-    animation: almd 6s ease-in-out infinite;
+    animation: almd 8s ease-in-out infinite;
   }
 
   @keyframes dan {
@@ -1604,7 +1599,7 @@ body {
   }
 
   .md\:animate-danmd {
-    animation: dan 6s ease-in-out infinite;
+    animation: dan 8s ease-in-out infinite;
   }
 
   @keyframes emd {
@@ -1618,7 +1613,7 @@ body {
   }
 
   .md\:animate-emd {
-    animation: emd 6s ease-in-out infinite;
+    animation: emd 8s ease-in-out infinite;
   }
 
   .md\:items-center {
