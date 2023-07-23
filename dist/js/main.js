@@ -20,16 +20,16 @@ var x = setInterval(function () {
   document.getElementById("countDown").innerHTML =
     "<li class='countdown-list'><span>" +
     days +
-    "</span><span class='countdown-unit'>h<span class='hidden md:inline'>ari</span> </span></li>" +
+    "</span><span class='countdown-unit'><span clas='md:hidden'>&nbsp</span>h<span class='hidden md:inline'>ari</span> </span></li>" +
     "<li class='countdown-list'><span>" +
     hours +
-    "</span><span class='countdown-unit'>j<span class='hidden md:inline'>am</span></span></li>" +
+    "</span><span class='countdown-unit'><span clas='md:hidden'>&nbsp</span>j<span class='hidden md:inline'>am</span></span></li>" +
     "<li class='countdown-list'><span>" +
     minutes +
-    "</span><span class='countdown-unit'>m<span class='hidden md:inline'>enit</span></span></li>" +
+    "</span><span class='countdown-unit'><span clas='md:hidden'>&nbsp</span>m<span class='hidden md:inline'>enit</span></span></li>" +
     "<li class='countdown-list'><span>" +
     seconds +
-    "</span><span class='countdown-unit'>d<span class='hidden md:inline'>etik</span></span></li>";
+    "</span><span class='countdown-unit'><span clas='md:hidden'>&nbsp</span>d<span class='hidden md:inline'>etik</span></span></li>";
 
   // If the count down is finished, write some text
   if (distance < 0) {
