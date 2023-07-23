@@ -17,7 +17,7 @@ body {
 }
 
 .countdown-list {
-  @apply mx-2 block h-16 w-16 rounded-full border bg-dark-1 p-2 transition-all ease-linear hover:bg-dark-2 hover:ring-2 hover:ring-dark-1 md:h-20 md:w-20 lg:mx-4;
+  @apply mx-2 h-16 w-16 rounded-full border bg-dark-1 p-2 transition-all ease-linear hover:bg-dark-2 hover:ring-2 hover:ring-dark-1 md:h-20 md:w-20 lg:mx-4 flex justify-center items-center md:block;
 }
 
 .countdown-unit {

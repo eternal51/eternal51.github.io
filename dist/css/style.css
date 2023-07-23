@@ -1329,9 +1329,11 @@ body{
 .countdown-list{
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  display: block;
+  display: flex;
   height: 4rem;
   width: 4rem;
+  align-items: center;
+  justify-content: center;
   border-radius: 9999px;
   border-width: 1px;
   --tw-bg-opacity: 1;
@@ -1355,6 +1357,7 @@ body{
 
 @media (min-width: 768px){
   .countdown-list{
+    display: block;
     height: 5rem;
     width: 5rem;
   }
