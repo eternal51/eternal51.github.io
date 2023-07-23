@@ -700,10 +700,6 @@ video {
   height: 2.5rem;
 }
 
-.h-4\/5{
-  height: 80%;
-}
-
 .h-6{
   height: 1.5rem;
 }
@@ -1258,6 +1254,10 @@ video {
   transition-delay: 200ms;
 }
 
+.delay-300{
+  transition-delay: 300ms;
+}
+
 .duration-500{
   transition-duration: 500ms;
 }
@@ -1372,13 +1372,12 @@ body{
 }
 
 .countdown-unit{
-  display: none;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 400;
 }
 
-@media (min-width: 768px){
+@media (min-width: 640px){
   .countdown-unit{
     display: block;
   }

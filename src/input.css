@@ -21,7 +21,7 @@ body {
 }
 
 .countdown-unit {
-  @apply hidden text-sm font-normal md:block;
+  @apply  text-sm font-normal sm:block;
 }
 
 .button {

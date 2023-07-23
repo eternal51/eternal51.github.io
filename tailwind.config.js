@@ -28,6 +28,7 @@ module.exports = {
         "serif-3": ["Lora", "serif"],
       },
       screens: {
+        // "xs": "320px",
         "2xl": "1320px",
       },
       keyframes: {
