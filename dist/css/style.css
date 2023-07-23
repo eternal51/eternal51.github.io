@@ -789,6 +789,20 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+@keyframes al {
+  0%, 100% {
+    transform: translateX(-1.5rem);
+  }
+
+  50% {
+    transform: translateX(-2rem);
+  }
+}
+
+.animate-al {
+  animation: al 6s ease-in-out infinite;
+}
+
 @keyframes bounce {
   0%, 100% {
     transform: translateY(-25%);
@@ -803,6 +817,92 @@ video {
 
 .animate-bounce {
   animation: bounce 1s infinite;
+}
+
+@keyframes dan {
+  0%, 100% {
+    transform: translateX(-2rem);
+  }
+
+  20%, 80% {
+    transform: translateX(-2rem) scale(.002);
+  }
+
+  50% {
+    transform: scale(0);
+  }
+}
+
+.animate-dan {
+  animation: dan 6s ease-in-out infinite;
+}
+
+@keyframes e {
+  0%, 100% {
+    transform: translateX(1.5rem);
+  }
+
+  50% {
+    transform: translateX(3rem);
+  }
+}
+
+.animate-e {
+  animation: e 6s ease-in-out infinite;
+}
+
+@keyframes if {
+  0%, 100% {
+    transform: translateX(-1.5rem);
+  }
+
+  20%, 80% {
+    transform: translateX(-1.5rem) scale(.002);
+  }
+
+  50% {
+    transform: scale(0);
+  }
+}
+
+.animate-if {
+  animation: if 6s ease-in-out infinite;
+}
+
+@keyframes ra {
+  0%, 100% {
+    transform: translateX(1.5rem) scale(1);
+  }
+
+  20%, 80% {
+    transform: translateX(1.5rem) scale(.002);
+  }
+
+  50% {
+    transform: scale(0);
+  }
+}
+
+.animate-ra {
+  animation: ra 6s ease-in-out infinite;
+}
+
+@keyframes tern {
+  0%, 100% {
+    transform: scale(0);
+  }
+
+  20%, 80% {
+    transform: scale(.002);
+  }
+
+  50% {
+    transform: translateX(1rem) scale(1);
+  }
+}
+
+.animate-tern {
+  animation: tern 6s ease-in-out infinite;
 }
 
 .flex-wrap {
@@ -1439,11 +1539,6 @@ body {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
-
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
 }
 
 @media (min-width: 768px) {
@@ -1478,6 +1573,52 @@ body {
   .md\:-translate-x-10 {
     --tw-translate-x: -2.5rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  @keyframes almd {
+    0%, 100% {
+      transform: translateX(-1.5rem);
+    }
+
+    50% {
+      transform: translateX(-3rem);
+    }
+  }
+
+  .md\:animate-almd {
+    animation: almd 6s ease-in-out infinite;
+  }
+
+  @keyframes dan {
+    0%, 100% {
+      transform: translateX(-2rem);
+    }
+
+    20%, 80% {
+      transform: translateX(-2rem) scale(.002);
+    }
+
+    50% {
+      transform: scale(0);
+    }
+  }
+
+  .md\:animate-danmd {
+    animation: dan 6s ease-in-out infinite;
+  }
+
+  @keyframes emd {
+    0%, 100% {
+      transform: translateX(1.5rem);
+    }
+
+    50% {
+      transform: translateX(4rem);
+    }
+  }
+
+  .md\:animate-emd {
+    animation: emd 6s ease-in-out infinite;
   }
 
   .md\:items-center {
