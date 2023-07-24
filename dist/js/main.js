@@ -46,13 +46,13 @@ const tujuan = urlParams.get("to");
 
 if (urlParams.has("to")) {
   document.querySelector("#nama-tamu").innerHTML = tujuan;
-  console.log(tujuan);
 } else {
   document.querySelector("#nama-tamu").innerHTML = "Tamu Undangan";
 }
 
 // Kategori Tamu VIP
-var tamuVip = process.env.TAMU_VIP.split(", ");
+const tamuVip = JSON.parse(process.env.VIP);
+// const tamuVip = ["Alif", "Era"];
 
 if (tamuVip.includes(tujuan)) {
   document.querySelector("#kategori-tamu").innerHTML =
