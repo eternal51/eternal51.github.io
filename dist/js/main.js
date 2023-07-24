@@ -51,8 +51,10 @@ if (urlParams.has("to")) {
 }
 
 // Kategori Tamu VIP
-const tamuVip = JSON.parse(process.env.VIP);
-// const tamuVip = ["Alif", "Era"];
+
+// const tamuVip = JSON.parse(process.env.VIP);
+const tamuVip = ["Alif", "Era"];
+// console.log(tamuVip);
 
 if (tamuVip.includes(tujuan)) {
   document.querySelector("#kategori-tamu").innerHTML =
