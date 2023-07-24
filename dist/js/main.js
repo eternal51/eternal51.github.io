@@ -58,7 +58,7 @@ const tamuVip = [
 ];
 if (tamuVip.includes(tujuan)) {
   document.querySelector("#kategori-tamu").innerHTML =
-    "<span class='text-xl font-semibold py-1 px-4 mx-2 rounded-md text-white bg-sage-5 font-serif-3 items-center'>VIP</span>";
+    "<span class='py-1 px-4 mx-2 rounded-md text-white bg-sage-5  items-center'>VIP</span>";
 } else {
   document.querySelector("#kategori-tamu").innerHTML = "";
 }
