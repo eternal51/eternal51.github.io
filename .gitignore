@@ -1,4 +1,4 @@
 node_modules
 .vscode
 .env
-js/tamu.js
+dist/js/tamu.js

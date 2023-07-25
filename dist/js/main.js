@@ -1,4 +1,5 @@
 import { VIP } from "./tamu.js";
+
 // Hitung Mundur
 // Set the date we're counting down to
 var countDownDate = new Date("Aug 12, 2023 08:00:00").getTime();
@@ -54,9 +55,9 @@ if (urlParams.has("to")) {
 // Kategori Tamu VIP
 
 // const tamuVip = JSON.parse(process.env.VIP);
-const tamuVip = ["Alif", "Era"];
+// const tamuVip = ["Alif", "Era"];
 const vip = VIP;
-console.log(vip);
+// console.log(vip);
 // console.log(tamuVip);
 
 if (vip.includes(tujuan)) {
