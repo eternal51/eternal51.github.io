@@ -56,11 +56,11 @@ if (urlParams.has("to")) {
 
 // const tamuVip = JSON.parse(process.env.VIP);
 const vip = [
-  "Bpk. Hendra Fianto",
-  "Bpk. M. Asep Saepunazat",
-  "Bpk. Rahman Wahid",
-  "Bpk. David Putranegoro",
-  "Bpk. LipHin",
+  "Hendra Fianto",
+  "M. Asep Saepunazat",
+  "Rahman Wahid",
+  "David Putranegoro",
+  "LipHin",
 ];
 // const vip = VIP;
 // console.log(vip);
