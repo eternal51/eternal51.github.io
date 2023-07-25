@@ -55,7 +55,13 @@ if (urlParams.has("to")) {
 // Kategori Tamu VIP
 
 // const tamuVip = JSON.parse(process.env.VIP);
-const vip = ["Alif", "Era"];
+const vip = [
+  "Bpk. Hendra Fianto",
+  "Bpk. M. Asep Saepunazat",
+  "Bpk. Rahman Wahid",
+  "Bpk. David Putranegoro",
+  "Bpk. LipHin",
+];
 // const vip = VIP;
 // console.log(vip);
 // console.log(tamuVip);
