@@ -1,4 +1,4 @@
-import { VIP } from "./tamu.js";
+// import { VIP } from "./tamu.js";
 
 // Hitung Mundur
 // Set the date we're counting down to
@@ -55,8 +55,8 @@ if (urlParams.has("to")) {
 // Kategori Tamu VIP
 
 // const tamuVip = JSON.parse(process.env.VIP);
-// const tamuVip = ["Alif", "Era"];
-const vip = VIP;
+const vip = ["Alif", "Era"];
+// const vip = VIP;
 // console.log(vip);
 // console.log(tamuVip);
 
