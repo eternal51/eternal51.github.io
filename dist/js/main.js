@@ -106,5 +106,5 @@ tutupUndangan.addEventListener("click", function () {
 });
 
 // Bersihkan query di url
-baseUrl = window.location.href.split("?")[0];
+const baseUrl = window.location.href.split("?")[0];
 window.history.pushState("name", "", baseUrl);
