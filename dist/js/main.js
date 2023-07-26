@@ -54,7 +54,6 @@ if (urlParams.has("to")) {
 
 // Kategori Tamu VIP
 
-// const tamuVip = JSON.parse(process.env.VIP);
 const vip = [
   "Hendra Fianto",
   "M. Asep Saepunazat",
@@ -62,9 +61,6 @@ const vip = [
   "David Putranegoro",
   "LipHin",
 ];
-// const vip = VIP;
-// console.log(vip);
-// console.log(tamuVip);
 
 if (vip.includes(tujuan)) {
   document.querySelector("#kategori-tamu").innerHTML =
@@ -106,5 +102,5 @@ tutupUndangan.addEventListener("click", function () {
 });
 
 // Bersihkan query di url
-const baseUrl = window.location.href.split("?")[0];
-window.history.pushState("name", "", baseUrl);
+// const baseUrl = window.location.href.split("?")[0];
+// window.history.pushState("name", "", baseUrl);
